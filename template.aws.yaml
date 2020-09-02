@@ -139,7 +139,7 @@ Resources:
           ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
           # Install git
           yum install -y git
-          git clone https://github.com/doccano/doccano.git
+          git clone https://github.com/bashartalafha/doccano.git
           cd doccano
           sed -i s/"admin"/${Username}/g docker-compose.prod.yml
           sed -i s/"password"/${Password}/g docker-compose.prod.yml
